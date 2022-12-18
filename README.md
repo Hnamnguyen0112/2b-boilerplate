@@ -28,3 +28,12 @@ Please take no more than 2 hours to finish. We do not track time, hence you can 
   - README that explains various design decisions that you took.
 
 Commit your answers in a private Github repository(it's free), please do not fork as other candidates will see your answers. Add Zan(liangzan), Ben(BenPropine) as collaborators then inform us that it is done at zan@propine.com, ben.nguyen@propine.com.
+
+Explanation: 
+    
+  - Structure: 
+     - api: store api calls
+     - services: split the whole process into multiple specific functionalities
+
+  - Flow: 
+     - Parse file -> group transactions by token -> call api to get current rate -> calculate portfolio per token in USD
